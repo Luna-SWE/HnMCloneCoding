@@ -21,7 +21,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Docs404 language={"NULL"} <ProductAll />} />
+        <Route path='/' element={<ProductAll />} />
         <Route path='/login' element={<Login />} />
         <Route path='/product/:id' element={<ProductDetail />} />
       </Routes>
