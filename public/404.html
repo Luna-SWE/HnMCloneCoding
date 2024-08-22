@@ -1,0 +1,7 @@
+<script type="text/javascript">
+  var path = window.location.pathname;
+  var shouldRedirect = !path.includes('.');
+  if (shouldRedirect) {
+    window.location.href = window.location.origin + '/#' + path;
+  }
+</script>
