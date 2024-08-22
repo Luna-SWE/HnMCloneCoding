@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HnMCloneCoding/static/css/main.d45feab8.css",
+    "main.js": "/HnMCloneCoding/static/js/main.f7452a11.js",
+    "static/js/453.288d588e.chunk.js": "/HnMCloneCoding/static/js/453.288d588e.chunk.js",
+    "index.html": "/HnMCloneCoding/index.html",
+    "main.d45feab8.css.map": "/HnMCloneCoding/static/css/main.d45feab8.css.map",
+    "main.f7452a11.js.map": "/HnMCloneCoding/static/js/main.f7452a11.js.map",
+    "453.288d588e.chunk.js.map": "/HnMCloneCoding/static/js/453.288d588e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d45feab8.css",
+    "static/js/main.f7452a11.js"
+  ]
+}
