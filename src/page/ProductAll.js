@@ -8,7 +8,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const ProductAll = () => {
   const [productList, setProductList] = useState([]);
   const getProducts = async () => {
-    let url = 'https://github.com/Luna-SWE/HnMCloneCoding/blob/main/db.json';
+    // let url = 'http://localhost:4000/products';
+    let url =
+      'https://my-json-server.typicode.com/Luna-SWE/HnMCloneCoding/products';
     let response = await fetch(url);
     let data = await response.json();
     setProductList(data);
